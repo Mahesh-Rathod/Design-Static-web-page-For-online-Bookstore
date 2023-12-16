@@ -1,0 +1,255 @@
+********Frameset tag********
+<html>
+<head>
+<title> BOOK STORE</title>
+</head>
+<frameset rows="15%,*,">
+<frame src="heading.html" name="f1">
+<frameset cols="30%,40%,30%">
+<frame src="registration.html" name="f2">
+<frame src="catlog.html" name="f3">
+<frame src="login.html" name="f4">
+</frameset>
+</frameset>
+</html>
+************Heading page************
+<html>
+<head> 
+<title>home</title>
+</head>
+<body>
+ <table align="center" width="100%">
+ <tr> 
+ <td align="center" colspan="5">
+ <h1 style="color: red;">BOOK STORE</h1>
+ </td>
+ </tr>
+ <tr>
+<th><a href="#"><h2>HOME</h2></a></th>
+ <th><a href="#"><h2>Best Seller</h2></a></th>
+ <th><a href="#"><h2>About</h2></a></th>
+<th><a href="#"><h2>Contact</h2></a></th>
+ <th><a href="#"><h2>Feedback</h2></a></th>
+ </tr>
+ </table>
+</body>
+</html>
+**********Registration Page**********
+<html>
+<head>
+
+<title>Register</title>
+</head>
+<body bgcolor="silver">
+<form>
+<table>
+<h2>Regestration Form</h2>
+<tr>
+<td><label for="name">Name:</label></td>
+<td><input type="text" name="nm" id="nm"></td>
+</tr>
+<tr>
+<td>
+<label for="user">Username:</label>
+</td>
+<td>
+<input type="text" name="user" id="user">
+</td>
+</tr>
+<tr>
+<td>
+<label for="pass">Password:</label>
+</td>
+<td>
+<input type="password" name="pass" id="pass">
+</td>
+</tr>
+<tr>
+<td>
+<label for="pass">Confirm Password:</label>
+</td>
+<td>
+<input type="password" name="Password" id="Password">
+</td>
+</tr>
+<tr>
+<td>
+<label for="mail">Email:</label>
+</td>
+<td>
+<input type="email" name="mail" id="mail">
+</td>
+</tr>
+<tr>
+<td>
+<label for="mob">Mobile no:</label>
+</td>
+<td>
+<input type="number" name="mob" id="mob">
+</td>
+</tr>
+<tr>
+<td>
+<label for="Gender">Gender:</label>
+</td>
+<td>
+<input type="radio" name="Gender" id="Gender">Male
+<input type="radio" name="Gender" id="Gender">Female
+</td>
+</tr>
+<tr>
+<td>
+<label for="add">Address:</label>
+</td>
+<td>
+<textarea ></textarea>
+</td>
+</tr>
+<tr>
+<td>
+Course:
+</td>
+<td>
+<select name=”dropdown”>
+<option>MCA</option>
+<option >MBA</option>
+<option>MA</option>
+<option>Msc</option>
+<option>Bcom</option>
+<option>BBA</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="book">Book Topic:</label></td>
+<td><input type="checkbox" name="book" id="book">
+<label for="book">Web Technology</label></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" name="book" id="book">
+<label for="book">Computer Programing</label></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" name="book" id="book">
+<label for="book">Placement Prepration</label></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" name="book" id="book">
+<label for="book">Mathmatics</label></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" name="book" id="book">
+<label for="book">Others</label>
+</td>
+</tr>
+</table><br>
+<input type="button" value="Register">
+<input type="button" value="Cancel">
+</center>
+</form>
+</body>
+</html>
+*********Catlog Page********
+<html>
+<head>
+<title>Catalogue</title>
+</head>
+<body bgcolor="azure">
+<table border="2" align="center" cellpadding="5">
+<center><h1>Books avilable in web site</h1></center>
+<tr>
+<th>Sr.No</th>
+<th>Book Name</th>
+<th>Author</th>
+<th>Publication/Edition</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Rich Dad Poor Dad</td>
+<td>Robert Kiyosaki</td>
+<td>2<sup>nd</sup>Edition, <br> Personal Information ,2001</td>
+</tr>
+<tr>
+<td>2</td>
+<td>A Million Mutinies Now </td>
+<td>	V.S. Naipaul</td>
+<td>2<sup>nd</sup>Edition,<br> Personal Information ,2001</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Beginning of the Beginning </td>
+<td>Bhagwan Shri Rajneesh</td>
+<td>2<sup>nd</sup>Edition, <br> Personal Information ,2001</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Development Strategies and Inclusive Policies</td>
+<td>Vinay Rajath D</td>
+<td>2<sup>nd</sup>Edition, <br> Milagres College, Kallianpu	2009</td>
+</tr>
+<tr>
+<td>5</td>
+<td>M-commerce:A Boom or bane for grocery shoppers.</td>
+<td>Shukla, A.,&Sharma, S.K.</td>
+<td>2<sup>nd</sup>Edition,<br> PApple Academic Press in collaboration with CRC Press
+</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Core Web Programing</td>
+<td>Marty Hall & Larry Brown</td>
+<td>2<sup>nd</sup>Edition, <br> Personal Information ,2001</td>
+</tr>
+
+
+<tr>
+<td>7</td>
+<td>Problems and Prospects of Microfinance</td>
+<td>Malhotra, S. </td>
+<td>2<sup>nd</sup>Edition, <br> Personal Information ,2001</td>
+</tr>
+</tr>
+</table>
+</body>
+</html>
+*********Login Page**********
+<html>
+<head>   
+<title>Login</title>
+</head>
+<body bgcolor="aqua">
+<center>
+<form>
+<fieldset>
+<table>
+<h2>Login Page</h2>
+<tr>
+<td>
+<label for="user">Username:</label>
+</td>
+<td>
+<input type="text" name="user" id="user">
+</td>
+</tr>
+<tr>
+<td>
+<label for="user">Password:</label>
+</td>
+<td>
+<input type="password" name="pass" id="pass">
+</td>
+</tr>
+</table><br>
+<input type="button" value="Login">
+<a href="register.html">new User?</a>    
+</fieldset>
+</form> 
+</center>
+</body>
+</html>
